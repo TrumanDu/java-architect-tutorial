@@ -1,5 +1,5 @@
 # Table of contents
 
-* [java architect tutorial](README.md)
+* [开篇](README.md)
 * [Untitled](untitled.md)
 
