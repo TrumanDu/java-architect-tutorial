@@ -1,5 +1,5 @@
 # Table of contents
 
-* [开篇](README.md)
+* [Java初级架构师入阶系列专栏](README.md)
 * [Untitled](untitled.md)
 
