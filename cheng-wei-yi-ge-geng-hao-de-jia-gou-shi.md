@@ -1,3 +1,7 @@
+---
+description: 推荐大家在开始前能先阅读以下本文
+---
+
 # 成为一个更好的架构师
 
 本文翻译于[SoftwareArchitect](https://github.com/justinamiller/SoftwareArchitect),原创翻译，有删减，介意请查看原文，转载请联系我。
