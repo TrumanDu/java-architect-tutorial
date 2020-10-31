@@ -13,6 +13,7 @@
 * [java云原生实践](xiang-mu-kai-fa/java-yun-yuan-sheng-shi-jian.md)
 * [java 容器化最佳实践](xiang-mu-kai-fa/java-rong-qi-hua-zui-jia-shi-jian.md)
 * [数据库设计原则](xiang-mu-kai-fa/shu-ju-ku-she-ji-yuan-ze.md)
+* [如何封装client/tool](xiang-mu-kai-fa/ru-he-feng-zhuang-clienttool.md)
 
 ## 代码设计
 
