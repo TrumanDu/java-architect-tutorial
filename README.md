@@ -10,6 +10,8 @@
 
 如果你有幸看到这个，希望能收到你的见解，互相交流学习。
 
+[https://github.com/TrumanDu](https://github.com/TrumanDu)
+
 ## Table of contents
 
 * [Java初级架构师入阶系列专栏](README.md)
