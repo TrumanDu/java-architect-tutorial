@@ -155,3 +155,7 @@ public void create(String path) {
     }    
 ```
 
+### AutoCloseable/Closeable
+
+需要关闭资源的，记得实现AutoCloseable/Closeable
+
