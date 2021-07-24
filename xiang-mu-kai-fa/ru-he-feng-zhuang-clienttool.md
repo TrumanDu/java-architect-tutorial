@@ -117,3 +117,7 @@ public class RedisTemplate implements Closeable {
 }
 ```
 
+## 返回值
+
+使用Optinal包装返回值，避免返回值为null
+
