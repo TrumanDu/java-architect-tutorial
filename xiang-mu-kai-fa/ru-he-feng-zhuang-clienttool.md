@@ -49,6 +49,8 @@ public class ZooKeeperTemplate implements AutoCloseable {
 
 这个设计模式也是数据创建型的，如果参与大于4个，推荐使用这种模式。
 
+### Demo
+
 ```text
 public class RedisTemplate implements Closeable {
 
@@ -117,7 +119,39 @@ public class RedisTemplate implements Closeable {
 }
 ```
 
-## 返回值
+## 封装技巧
+
+### 返回值
 
 使用Optinal包装返回值，避免返回值为null
+
+### 统一校验
+
+在类中的多个方法都需要相同的参数校验的，抽象出统一校验，jdk源码中就存在大量这样的例子。
+
+下面举个例子：
+
+```text
+private void assertConnected() {
+        if(zoo == null) {
+            throw new SnsException("ZooKeeper is not connected");
+        }
+    }
+
+    private void assertPathValid(String path) {
+        PathUtils.validatePath(path);
+}
+
+public void delete(String path) {
+        assertConnected();
+        assertPathValid(path);
+       //省略
+    }
+    
+public void create(String path) {
+        assertConnected();
+        assertPathValid(path);
+       //省略
+    }    
+```
 
